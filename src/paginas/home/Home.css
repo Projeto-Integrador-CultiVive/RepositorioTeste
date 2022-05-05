@@ -1,0 +1,38 @@
+.caixa {
+    background-color: #D8E59E;
+    justify-content: space-between !important;
+}
+
+.titulo {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.botao-login {
+    border-color: white !important;
+    background-color: #000000 !important;
+    color: white !important;
+}
+
+.produtos {
+    background-color: white;
+}
+
+.img{
+    display: flex;
+    
+}
+
+.botao{
+    border-color: rgb(251, 251, 251) !important;
+    background-color: #9ac40042 !important;
+    color: white !important;
+}
+
+.botao:hover{
+    border-color: white !important;
+    background-color: #65820042 !important;
+
+}
+
+

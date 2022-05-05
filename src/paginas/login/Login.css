@@ -1,0 +1,33 @@
+*{
+    text-decoration: none !important;; 
+}
+
+.textos1 {
+    font-weight: bold !important;
+}
+
+.imagem {
+    background-image: url(https://i.imgur.com/bMeQtee.png);
+    background-repeat: no-repeat;
+    width: 100vh;
+    min-height: 100vh;
+    
+   
+    background-position: center;
+}
+
+.text-decorator-none {
+    text-decoration: none;
+}
+
+.botao-login{
+    border-color: rgb(0, 0, 0) !important;
+    background-color: #D8E59E !important;
+    color: white !important;
+}
+
+.cadastro{
+    color: rgb(10, 0, 0) !important;
+    font-weight: bold !important;
+}
+
