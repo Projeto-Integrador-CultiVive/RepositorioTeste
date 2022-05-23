@@ -55,7 +55,7 @@ function ListaProdutos() {
 
         produto.map(produto => (
           <div className="container-prod">
-            <Box m={4} flex-direction="row" display="flex" >
+            <Box m={4} display="flex" justifyContent="space-between" >
               <Card className='produto-box' variant="outlined" >
                 <CardContent>
                   <img className="img-produtos" src="https://i.imgur.com/UN2h0bU.jpg" alt="" />
@@ -77,7 +77,7 @@ function ListaProdutos() {
                   </Typography>
                 </CardContent>
                 <CardActions>
-                  <Box className="button-produto" display="flex" justifyContent="center" mb={1.5} >
+                  <Box className="button-produto" display="flex" justifyContent="space-around" mb={1.5} >
 
 
                     <Link to={`/steps/${produto.id}`} className="text-decorator-none">
